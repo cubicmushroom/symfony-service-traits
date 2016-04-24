@@ -1,0 +1,25 @@
+{
+    "name": "cubicmushroom/symfony-service-traits",
+    "version": "0.0.0",
+    "description": "Collection of traits to make injecting standard Symfony services into classes easy",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Toby Griffiths",
+            "email": "toby@cubicmushroom.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "CubicMushroom\\Symfony\\ServiceTrait\\": "src/ServiceTrait"
+        }
+    }
+}

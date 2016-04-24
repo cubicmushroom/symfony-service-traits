@@ -1,0 +1,32 @@
+{
+  "name": "symfony-service-traits",
+  "version": "0.0.0",
+  "description": "Collection of traits to make injecting standard Symfony services into classes easy",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cubicmushroom/symfony-service-traits.git"
+  },
+  "keywords": [
+    "symfony",
+    "services",
+    "traits",
+    "helper"
+  ],
+  "author": "Toby Griffiths <toby@cubicmushroom.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cubicmushroom/symfony-service-traits/issues"
+  },
+  "homepage": "https://github.com/cubicmushroom/symfony-service-traits#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-bump": "^2.1.0",
+    "gulp-filter": "^4.0.0",
+    "gulp-git": "^1.7.1",
+    "gulp-tag-version": "^1.3.0"
+  }
+}
