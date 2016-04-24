@@ -19,7 +19,7 @@ To use these service traits, simple include them in the top of your class...
 
 The package contains the following traits
 
-* MailerAwareTrait
-* TemplatingAwareTrait
-* TranslatorAwareTrait
+* [SwiftMailerAwareTrait](src/ServiceTrait/SwiftMailerAwareTrait.php)
+* [TemplatingAwareTrait](src/ServiceTrait/TemplatingAwareTrait.php)
+* [TranslatorAwareTrait](src/ServiceTrait/TranslatorAwareTrait.php)
 * ...
