@@ -1,6 +1,6 @@
 {
     "name": "cubicmushroom/symfony-service-traits",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Collection of traits to make injecting standard Symfony services into classes easy",
     "type": "library",
     "license": "MIT",
