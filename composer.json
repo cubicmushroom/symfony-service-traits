@@ -16,7 +16,8 @@
         "swiftmailer/swiftmailer": ">=4.2.0,~5.0",
         "symfony/translation": "~2.7",
         "symfony/security-core": "~2.6.13|~2.7.9|~2.8",
-        "symfony/twig-bundle": "~1.23|~2.0"
+        "symfony/twig-bundle": "~1.23|~2.0",
+        "symfony/routing": "~2.6,>2.6.4"
     },
     "require-dev": {
         "phpspec/phpspec": "^2.5"
