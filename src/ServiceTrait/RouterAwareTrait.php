@@ -8,7 +8,7 @@
 
 namespace CubicMushroom\Symfony\ServiceTrait;
 
-use Symfony\Component\Routing\Router;
+use Symfony\Component\Routing\RouterInterface;
 
 /**
  * Class RouterAwareTrait
@@ -18,15 +18,15 @@ use Symfony\Component\Routing\Router;
 trait RouterAwareTrait
 {
     /**
-     * @var Router
+     * @var RouterInterface
      */
     protected $router;
 
 
     /**
-     * @param Router $router
+     * @param RouterInterface $router
      */
-    public function setRouter(Router $router)
+    public function setRouter(RouterInterface $router)
     {
         $this->router = $router;
     }
